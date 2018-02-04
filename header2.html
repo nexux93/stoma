@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="dist/css/foundation-float.css">
+    <link rel="stylesheet" href="dist/css/foundation.css">
+    <link rel="stylesheet" href="dist/css/app.css">
+    <link rel="stylesheet" href="dist/css/reveal.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+          type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<div>
+    <div id="myModal" class="reveal-modal grid-x grid-padding-x">
+
+        <div class="large-12 medium-12 small-12 cell contact-block">
+            <h2>Записаться на приём</h2>
+            <input type="text" placeholder="Имя" >
+            <input type="tel" placeholder="Телефон" >
+            <input type="email" placeholder="Email" >
+            <textarea type="text" placeholder="Сообщение" rows="4"></textarea>
+            <a href="#" class="button green" name="">Подробнее</a>
+        </div>
+
+        <a class="close-reveal-modal">&#215;</a>
+    </div></div>
+    <div class="row row-header nav-bar-large">
+        <div class="grid-x grid-padding-x">
+            <div class="large-3 medium-3 small-3 cell">
+                <h1>Логотип</h1>
+            </div>
+            <div class="large-9 medium-9 small-9 cell nav-bar-large">
+                <div class="grid-x grid-padding-x header-contacts">
+                    <div class="large-4 medium-4 small-12 cell">
+                        <div class="large-4"><img src="dist/map.png" alt="" class="header-img"></div>
+                        <div class="large-8"><p class="text-header">Адрес: г. Сочи, <br> Курортный проспект, 73</p>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 small-12 cell ">
+                        <div class="large-4"><img src="dist/clock.png" alt="" class="header-img"></div>
+                        <div class="large-8"><p class="text-header">Режим работы: <br> Без выходных, круглосуточно</p>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 small-12 cell">
+                        <div class="large-4"><img src="dist/phone.png" alt="" class="header-img"></div>
+                        <div class="large-8"><p><b>+7999999999 <br> +7999999999</b></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row expanded green nav-bar-large">
+        <div class="grid-x grid-padding-x">
+            <div class="large-9 medium-9 small-9 cell">
+                <div class="grid-x grid-padding-x">
+                    <div class="button-group">
+                        <a class="button green">Главная</a>
+                        <a class="button green">О клинике</a>
+                        <a class="button green">Наши цены</a>
+                        <a class="button green">Достижения</a>
+                        <a class="button green">Отзывы</a>
+                        <a class="button green">Статьи</a>
+                        <a class="button green">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            <div class="large-3 medium-3 small-3 cell">
+                <div class="grid-x grid-padding-x">
+                    <div class="button-group">
+                        <a href="#" class="green-light button" data-reveal-id="myModal" data-animation="fade">Записаться
+                            на приём</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+
+        <ul class="menu vertical">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О клинике</a></li>
+            <li><a href="#">Наши цены</a></li>
+            <li><a href="#">Достижения</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#" data-reveal-id="myModal" data-animation="fade">Записаться на приём</a></li>
+        </ul>
+    </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Your page content lives here -->
+
+    </div>
+    <div class="nav-bar-small">
+        <div class="grid-x">
+            <div class="small-2 cell">
+                <a type="button" class="button nav-bar-small green" data-toggle="offCanvas">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 16 12">
+                        <path fill="white"
+                              d="M1 12c-1 0-1-1-1-1s0-1 1-1h14c1 0 1 1 1 1s0 1-1 1H1zm0-5C0 7 0 6 0 6s0-1 1-1h14c1 0 1 1 1 1s0 1-1 1H1zm0-5C0 2 0 1 0 1s0-1 1-1h14c1 0 1 1 1 1s0 1-1 1H1z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="small-10 cell">
+                <div class="text-center logo">
+                    LOGO
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="jquery-1.4.4.min.js"></script>
+    <script src="jquery.reveal.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="js/app.js"></script>
+</header>
+</html>

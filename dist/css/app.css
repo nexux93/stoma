@@ -1,0 +1,224 @@
+.row-header {
+    max-width: 100%;
+    padding-left: 10rem;
+}
+
+.green {
+    background-color: #6fb644;
+}
+
+.row .button-group .button {
+    margin-right: 0;
+    margin-bottom: -1rem;
+    font-size: 1.3rem;
+}
+
+.row .button-group .button:hover {
+    background-color: #6fb644;
+}
+
+.row .button-group .button:focus {
+    background-color: #8bd556;
+}
+
+.green-light {
+    background-color: #8bd556;
+}
+
+.up-header {
+    padding-top: 3rem;
+}
+
+.header-container {
+    padding-right: 12rem;
+}
+
+.header-contacts {
+    padding-left: 9rem;
+}
+
+.img-header {
+    padding-right: 1rem;
+    padding-top: .4rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.footer {
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-block {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.button:hover, .button:focus {
+    background-color: #4a831c;
+}
+
+.large-12 img {
+    margin-left: -1rem;
+}
+
+.text {
+    font-size: .8rem;
+}
+
+.card > :last-child {
+    margin-bottom: 5rem;
+}
+
+.banner-button {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+}
+
+.button.hollow {
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+}
+
+.button.hollow:hover, .button.hollow:focus {
+    border: 1px solid #858585;
+    color: #858585;
+}
+
+.row-body {
+   position: relative;
+    padding-bottom: 4rem;
+}
+
+.ul-contact {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+.header-img {
+    float: left;
+    padding-right: 1rem;
+}
+
+.text-header {
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.row-header {
+    padding-top: 1rem;
+}
+
+@media (max-width: 1265px) {
+    .nav-bar-large {
+        display: none;
+    }
+}
+
+@media (min-width: 1265px) {
+    .nav-bar-small {
+        display: none;
+    }
+}
+
+.burger {
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+}
+
+.button-group {
+    padding-left: 9rem;
+}
+
+@media (max-width: 1450px)and (min-width: 1265px ) {
+    .button-group {
+        padding-left: 1rem;
+    }
+
+    .nav-bar-large {
+        padding-left: 1rem;
+    }
+}
+
+.logo {
+    padding-top: .8rem;
+}
+
+.vertical a {
+    color: black;
+}
+
+footer ul {
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+.footer-col-mid {
+    position: relative;
+    top: 4rem;
+}
+
+.footer-col-right {
+    position: relative;
+    top: 6.5rem;
+}
+
+.footer-col-logo {
+    position: relative;
+    top: 3.6rem;
+}
+
+.footer-col-tell {
+    position: relative;
+    top: 3rem;
+    font-size: 1rem;
+
+}
+
+footer .footer-col-tell ul {
+    font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+    footer .large {
+        display: none;
+    }
+}
+@media (min-width: 1100px){
+    footer .small {
+        display: none;
+    }
+}
+.thumbnail {
+    border: none!important;
+}
+.entry-content {
+    font-size: .8rem;
+}
+@media (max-width: 850px){
+    .banner-button{
+        top:45%;
+    }
+}
+@media (max-width: 600px){
+    .banner-button{
+        top:35%;
+    }
+}
+@media (max-width: 450px){
+    .banner-button{
+        top:30%;
+    }
+}
